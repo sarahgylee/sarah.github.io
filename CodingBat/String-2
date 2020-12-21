@@ -1,0 +1,38 @@
+# https://codingbat.com/
+# Solutions for CodingBat Python String-2
+
+# String-2 double_char
+# Given a string, return a string where for every char in the original, there are two chars.
+
+def double_char(str):
+  new_str = ''
+  for i in str:
+    new_str = new_str + i*2
+  return new_str
+
+# String-2 count_hi
+# Return the number of times that the string "hi" appears anywhere in the given string.
+
+def count_hi(str):
+  count = 0
+  for i in range(len(str)-1):
+    if str[i]+str[i+1] == 'hi':
+      count +=1
+  return count
+
+# String-2 cat_dog
+# Return True if the string "cat" and "dog" appear the same number of times in the given string.
+
+def cat_dog(str):
+  cat = 0
+  dog = 0
+  for i in range(len(str)-1):
+    if str[i:i+3] == 'cat':
+      cat += 1
+    elif str[i:i+3] == 'dog':
+      dog += 1
+  return (cat==dog)
+  
+# String-2 count_code
+# Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter for the 'd', so "cope" and "cooe" count.
+
