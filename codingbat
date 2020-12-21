@@ -7,3 +7,28 @@
 
 def sleep_in(weekday, vacation):
   return not weekday or vacation
+
+# Warmup-1 monkey_trouble
+# We have two monkeys, a and b, and the parameters a_smile and b_smile indicate if each is smiling. 
+# We are in trouble if they are both smiling or if neither of them is smiling. Return True if we are in trouble.
+
+def monkey_trouble(a_smile, b_smile):
+  return ((a_smile and b_smile) or (not a_smile and not b_smile))
+  
+# Warmup-1 sum_double
+# Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+
+def sum_double(a, b):
+  if a == b:
+    return 2*(a+b)
+  else:
+    return (a+b)
+
+# Warmup-1 diff21
+# Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
+
+def diff21(n):
+  if n > 21:
+    return 2*(n-21)
+  else:
+    return 21-n
