@@ -4,7 +4,7 @@ Exercise: SQL_exercise_data\
 https://docs.google.com/spreadsheets/d/1ZVKyKP-xmVeXDzbRzprdKfE5g2c6XrSrscbUqYuXPoI/edit?usp=sharing
 
 
-## Solution: SQL exercise
+## Solution: SQL exercise with HarryPotter Data
 ### 1. Write a statement that will select the grade column from Student table
 
     SELECT grade
