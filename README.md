@@ -1,6 +1,6 @@
 # Data Analysis Fundamental Tools
 
-Teaching Slides with Exercises
+Teaching materials with exercises
   1. Microsoft Office Excel
   2. SQL
   3. Python
