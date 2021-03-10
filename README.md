@@ -1,3 +1,7 @@
-# Teaching Materials
+# Data Analysis Fundamental Tools
 
-Teaching Materials for Microsoft Office Excel, SQL, Python and Tableau with exercises
+Teaching Slides with Exercises\
+1. Microsoft Office Excel
+2. SQL
+3. Python
+4. Tableau
